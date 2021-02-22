@@ -1,0 +1,13 @@
+F:\epam\Task 1\Task 1.1\Task 1.1.2\bin\Debug\netcoreapp3.1\Task 1.1.2.exe
+F:\epam\Task 1\Task 1.1\Task 1.1.2\bin\Debug\netcoreapp3.1\Task 1.1.2.deps.json
+F:\epam\Task 1\Task 1.1\Task 1.1.2\bin\Debug\netcoreapp3.1\Task 1.1.2.runtimeconfig.json
+F:\epam\Task 1\Task 1.1\Task 1.1.2\bin\Debug\netcoreapp3.1\Task 1.1.2.runtimeconfig.dev.json
+F:\epam\Task 1\Task 1.1\Task 1.1.2\bin\Debug\netcoreapp3.1\Task 1.1.2.dll
+F:\epam\Task 1\Task 1.1\Task 1.1.2\bin\Debug\netcoreapp3.1\Task 1.1.2.pdb
+F:\epam\Task 1\Task 1.1\Task 1.1.2\obj\Debug\netcoreapp3.1\Task 1.1.2.AssemblyInfoInputs.cache
+F:\epam\Task 1\Task 1.1\Task 1.1.2\obj\Debug\netcoreapp3.1\Task 1.1.2.AssemblyInfo.cs
+F:\epam\Task 1\Task 1.1\Task 1.1.2\obj\Debug\netcoreapp3.1\Task 1.1.2.csproj.CoreCompileInputs.cache
+F:\epam\Task 1\Task 1.1\Task 1.1.2\obj\Debug\netcoreapp3.1\Task 1.1.2.dll
+F:\epam\Task 1\Task 1.1\Task 1.1.2\obj\Debug\netcoreapp3.1\Task 1.1.2.pdb
+F:\epam\Task 1\Task 1.1\Task 1.1.2\obj\Debug\netcoreapp3.1\Task 1.1.2.genruntimeconfig.cache
+F:\epam\Task 1\Task 1.1\Task 1.1.2\obj\Debug\netcoreapp3.1\Task 1.1.2.csprojAssemblyReference.cache

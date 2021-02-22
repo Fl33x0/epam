@@ -18,7 +18,7 @@ namespace Task_1
             Console.ReadKey();
         }
 
-        private static int inp()
+        public static int inp()
         {
             for (; ; )
             {
@@ -26,7 +26,7 @@ namespace Task_1
                 bool a = Int32.TryParse(Console.ReadLine(), out input);
                 if (a == true)
                 {
-                    if (input <= 0) Console.WriteLine("Ошибка: введите положительное значение");
+                    if (input <= 0) Console.WriteLine("Ошибка: введите положительное целое значение");
                     else return input;
                 }
                 else

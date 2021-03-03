@@ -6,21 +6,52 @@ namespace Task_1._1._6
     {
         static void Main(string[] args)
         {
-            int inputnum = inp ();
-            title_parameters title = new title_parameters ();
-
-            title.Bold = false;
-            title.Italic = false;
-            title.Underline = false;
-
-            if (inputnum == 1) { title.Bold = !title.Bold; }
-            if (inputnum == 2) { title.Italic = !title.Italic; }
-            if (inputnum == 3) { title.Underline = !title.Underline; }
             
-            Console.WriteLine(title.Bold, title.Italic, title.Underline);
+            Console.WriteLine("Параметры надписи: None");
+            Console.WriteLine("Введите число");
+            bool[] Params = new bool[3] { false, false, false };
+
+            while (true)
+            {
+
+
+                int inputnum = InputTool();
+                
+                switch (inputnum)
+                {
+                    case 1:
+                        Params[0] = !Params[0];
+                        break;
+
+                    case 2:
+                        Params[1] = !Params[1];
+                        break;
+
+                    case 3:
+                        Params[2] = !Params[2];
+                        break;
+                }
+
+                string TrueParameters = "";
+                for (int i = 0; i < Params.Length; i++)
+                {
+                    
+                    if (Params[i] == true)
+                    {
+                        TrueParameters += Enum.GetName(typeof(TitleParameters), i) + ", ";
+                    }
+                }
+
+                if (TrueParameters == "")
+                {
+                    Console.WriteLine("None");
+                }
+
+                Console.WriteLine(TrueParameters);
+            }
         }
 
-        public static int inp()
+        public static int InputTool()
         {
             for (; ; )
             {
@@ -38,13 +69,11 @@ namespace Task_1._1._6
             }
         }
 
-        public static string outp(bool title_parameter1, bool title_parameter2, bool title_parameter3)
+        enum TitleParameters
         {
-            Console.WriteLine("Параметры надписи:");
-            if (title_parameter1 == true) { Console.WriteLine("Bold"); }
-            if (title_parameter2 == true) { Console.WriteLine("Italic"); }
-            if (title_parameter3 == true) { Console.WriteLine("Underline"); }
-
+            Bold = 0,
+            Italic = 1,
+            Underline = 2,
         }
     }
 }

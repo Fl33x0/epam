@@ -17,10 +17,10 @@ F:\epam\Task 1\Task 1.1\Task 1.1.1\bin\Debug\netcoreapp3.1\Task 1.1.1.runtimecon
 F:\epam\Task 1\Task 1.1\Task 1.1.1\bin\Debug\netcoreapp3.1\Task 1.1.1.runtimeconfig.dev.json
 F:\epam\Task 1\Task 1.1\Task 1.1.1\bin\Debug\netcoreapp3.1\Task 1.1.1.dll
 F:\epam\Task 1\Task 1.1\Task 1.1.1\bin\Debug\netcoreapp3.1\Task 1.1.1.pdb
-F:\epam\Task 1\Task 1.1\Task 1.1.1\obj\Debug\netcoreapp3.1\Task 1.1.1.csprojAssemblyReference.cache
 F:\epam\Task 1\Task 1.1\Task 1.1.1\obj\Debug\netcoreapp3.1\Task 1.1.1.AssemblyInfoInputs.cache
 F:\epam\Task 1\Task 1.1\Task 1.1.1\obj\Debug\netcoreapp3.1\Task 1.1.1.AssemblyInfo.cs
 F:\epam\Task 1\Task 1.1\Task 1.1.1\obj\Debug\netcoreapp3.1\Task 1.1.1.csproj.CoreCompileInputs.cache
 F:\epam\Task 1\Task 1.1\Task 1.1.1\obj\Debug\netcoreapp3.1\Task 1.1.1.dll
 F:\epam\Task 1\Task 1.1\Task 1.1.1\obj\Debug\netcoreapp3.1\Task 1.1.1.pdb
 F:\epam\Task 1\Task 1.1\Task 1.1.1\obj\Debug\netcoreapp3.1\Task 1.1.1.genruntimeconfig.cache
+F:\epam\Task 1\Task 1.1\Task 1.1.1\obj\Debug\netcoreapp3.1\Task 1.1.1.csprojAssemblyReference.cache

@@ -6,7 +6,8 @@ namespace Task_1._1._3
     {
         static void Main(string[] args)
         {
-            int N = inp();
+            Console.WriteLine("Введите N");
+            int N = InputTool();
             int starsmax = 2 * N - 1;
             int M = (starsmax - 1) / 2;
             int j = 1;
@@ -23,7 +24,7 @@ namespace Task_1._1._3
 
             Console.ReadKey();
         }
-        public static int inp()
+        public static int InputTool()
         {
             for (; ; )
             {

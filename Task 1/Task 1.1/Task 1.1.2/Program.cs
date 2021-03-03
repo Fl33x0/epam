@@ -6,8 +6,10 @@ namespace Task_1._1._2
     {
         static void Main(string[] args)
         {
-            int N = inp();
+            Console.WriteLine("Введите N");
+            int N = InputTool();
             string chars = null;
+            
 
             for (int i = 1; i <= N; i++)
             {
@@ -17,7 +19,7 @@ namespace Task_1._1._2
 
             Console.ReadKey();
         }
-        public static int inp()
+        public static int InputTool()
         {
             for (; ; )
             {

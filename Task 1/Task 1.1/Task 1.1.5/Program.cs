@@ -8,7 +8,7 @@ namespace Task_1._1._5
         {
             int summ = 0;
 
-            for (int i = 1; i < 10; i++)
+            for (int i = 1; i < 1000; i++)
             {
                 int x = i % 3;
                 int y = i % 5;
@@ -18,7 +18,7 @@ namespace Task_1._1._5
                     summ += i;
                 } 
             }
-            Console.WriteLine(summ);
+            Console.WriteLine("Сумма чисел, кратных 3 или 5, от 0 до 1000: " + summ);
         }
     }
 }

@@ -6,7 +6,8 @@ namespace Task_1._1._3
     {
         static void Main(string[] args)
         {
-            int trianglesquantity = inp();
+            Console.WriteLine("Введите N");
+            int trianglesquantity = InputTool();
             int starsmax = 2 * trianglesquantity - 1;
             
 
@@ -29,7 +30,7 @@ namespace Task_1._1._3
 
             Console.ReadKey();
         }
-        public static int inp()
+        public static int InputTool()
         {
             for (; ; )
             {

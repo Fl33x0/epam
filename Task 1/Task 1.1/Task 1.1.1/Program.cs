@@ -7,10 +7,10 @@ namespace Task_1
         static void Main(string[] args)
         {
             Console.WriteLine("Введите длину");
-            int length = inp();
+            int length = InputTool();
 
             Console.WriteLine("Введите ширину");
-            int width = inp();
+            int width = InputTool();
 
             int s = length * width;
 
@@ -18,7 +18,7 @@ namespace Task_1
             Console.ReadKey();
         }
 
-        public static int inp()
+        public static int InputTool()
         {
             for (; ; )
             {
@@ -35,6 +35,7 @@ namespace Task_1
                 }
             }
         }
+
     
     }
 }

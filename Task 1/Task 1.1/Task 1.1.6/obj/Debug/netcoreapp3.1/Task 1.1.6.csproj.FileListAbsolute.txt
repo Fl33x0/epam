@@ -2,3 +2,12 @@ F:\epam\Task 1\Task 1.1\Task 1.1.6\obj\Debug\netcoreapp3.1\Task 1.1.6.csprojAsse
 F:\epam\Task 1\Task 1.1\Task 1.1.6\obj\Debug\netcoreapp3.1\Task 1.1.6.AssemblyInfoInputs.cache
 F:\epam\Task 1\Task 1.1\Task 1.1.6\obj\Debug\netcoreapp3.1\Task 1.1.6.AssemblyInfo.cs
 F:\epam\Task 1\Task 1.1\Task 1.1.6\obj\Debug\netcoreapp3.1\Task 1.1.6.csproj.CoreCompileInputs.cache
+F:\epam\Task 1\Task 1.1\Task 1.1.6\bin\Debug\netcoreapp3.1\Task 1.1.6.exe
+F:\epam\Task 1\Task 1.1\Task 1.1.6\bin\Debug\netcoreapp3.1\Task 1.1.6.deps.json
+F:\epam\Task 1\Task 1.1\Task 1.1.6\bin\Debug\netcoreapp3.1\Task 1.1.6.runtimeconfig.json
+F:\epam\Task 1\Task 1.1\Task 1.1.6\bin\Debug\netcoreapp3.1\Task 1.1.6.runtimeconfig.dev.json
+F:\epam\Task 1\Task 1.1\Task 1.1.6\bin\Debug\netcoreapp3.1\Task 1.1.6.dll
+F:\epam\Task 1\Task 1.1\Task 1.1.6\bin\Debug\netcoreapp3.1\Task 1.1.6.pdb
+F:\epam\Task 1\Task 1.1\Task 1.1.6\obj\Debug\netcoreapp3.1\Task 1.1.6.dll
+F:\epam\Task 1\Task 1.1\Task 1.1.6\obj\Debug\netcoreapp3.1\Task 1.1.6.pdb
+F:\epam\Task 1\Task 1.1\Task 1.1.6\obj\Debug\netcoreapp3.1\Task 1.1.6.genruntimeconfig.cache

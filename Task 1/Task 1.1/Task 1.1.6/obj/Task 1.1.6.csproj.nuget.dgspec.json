@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\Task 1.1.6.csproj": {}
+    "D:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\Task 1.1.6.csproj": {}
   },
   "projects": {
-    "F:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\Task 1.1.6.csproj": {
+    "D:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\Task 1.1.6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\Task 1.1.6.csproj",
+        "projectUniqueName": "D:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\Task 1.1.6.csproj",
         "projectName": "Task 1.1.6",
-        "projectPath": "F:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\Task 1.1.6.csproj",
-        "packagesPath": "C:\\Users\\Kisik\\.nuget\\packages\\",
-        "outputPath": "F:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\obj\\",
+        "projectPath": "D:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\Task 1.1.6.csproj",
+        "packagesPath": "C:\\Users\\Lenvovo\\.nuget\\packages\\",
+        "outputPath": "D:\\epam\\Task 1\\Task 1.1\\Task 1.1.6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kisik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenvovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

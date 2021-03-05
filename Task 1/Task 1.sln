@@ -25,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 1.1.10", "Task 1.1\Tas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 1.2.1", "Task 1.2\Task 1.2.1\Task 1.2.1.csproj", "{6C93CF32-D53E-4D28-95CA-17820A0A9CF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1.2.2", "Task 1.2\Task 1.2.2\Task 1.2.2.csproj", "{AAB92ED9-C6BF-46FC-AD3B-BF21B9C1C8D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 1.2.2", "Task 1.2\Task 1.2.2\Task 1.2.2.csproj", "{AAB92ED9-C6BF-46FC-AD3B-BF21B9C1C8D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1.2.3", "Task 1.2\Task 1.2.3\Task 1.2.3.csproj", "{17F424FA-5108-4D25-A8EE-6CDC26F503C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1.2.4", "Task 1.2\Task 1.2.4\Task 1.2.4.csproj", "{2595B224-FDBB-410B-9420-54C440BD8181}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{AAB92ED9-C6BF-46FC-AD3B-BF21B9C1C8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAB92ED9-C6BF-46FC-AD3B-BF21B9C1C8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAB92ED9-C6BF-46FC-AD3B-BF21B9C1C8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F424FA-5108-4D25-A8EE-6CDC26F503C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F424FA-5108-4D25-A8EE-6CDC26F503C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F424FA-5108-4D25-A8EE-6CDC26F503C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F424FA-5108-4D25-A8EE-6CDC26F503C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2595B224-FDBB-410B-9420-54C440BD8181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2595B224-FDBB-410B-9420-54C440BD8181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2595B224-FDBB-410B-9420-54C440BD8181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2595B224-FDBB-410B-9420-54C440BD8181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

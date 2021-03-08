@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\Task 1.2.1.csproj": {}
+    "E:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\Task 1.2.1.csproj": {}
   },
   "projects": {
-    "D:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\Task 1.2.1.csproj": {
+    "E:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\Task 1.2.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\Task 1.2.1.csproj",
+        "projectUniqueName": "E:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\Task 1.2.1.csproj",
         "projectName": "Task 1.2.1",
-        "projectPath": "D:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\Task 1.2.1.csproj",
-        "packagesPath": "C:\\Users\\Lenvovo\\.nuget\\packages\\",
-        "outputPath": "D:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\obj\\",
+        "projectPath": "E:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\Task 1.2.1.csproj",
+        "packagesPath": "C:\\Users\\U$er\\.nuget\\packages\\",
+        "outputPath": "E:\\epam\\Task 1\\Task 1.2\\Task 1.2.1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenvovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\U$er\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

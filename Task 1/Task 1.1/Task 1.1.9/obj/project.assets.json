@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Lenvovo\\.nuget\\packages\\": {}
+    "C:\\Users\\U$er\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\epam\\Task 1\\Task 1.1\\Task 1.1.9\\Task 1.1.9.csproj",
+      "projectUniqueName": "E:\\epam\\Task 1\\Task 1.1\\Task 1.1.9\\Task 1.1.9.csproj",
       "projectName": "Task 1.1.9",
-      "projectPath": "D:\\epam\\Task 1\\Task 1.1\\Task 1.1.9\\Task 1.1.9.csproj",
-      "packagesPath": "C:\\Users\\Lenvovo\\.nuget\\packages\\",
-      "outputPath": "D:\\epam\\Task 1\\Task 1.1\\Task 1.1.9\\obj\\",
+      "projectPath": "E:\\epam\\Task 1\\Task 1.1\\Task 1.1.9\\Task 1.1.9.csproj",
+      "packagesPath": "C:\\Users\\U$er\\.nuget\\packages\\",
+      "outputPath": "E:\\epam\\Task 1\\Task 1.1\\Task 1.1.9\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenvovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\U$er\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

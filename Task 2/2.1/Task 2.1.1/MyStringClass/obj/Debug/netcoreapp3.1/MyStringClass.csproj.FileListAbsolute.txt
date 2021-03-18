@@ -1,0 +1,9 @@
+E:\epam\Task 2\2.1\Task 2.1.1\MyStringClass\bin\Debug\netcoreapp3.1\MyStringClass.deps.json
+E:\epam\Task 2\2.1\Task 2.1.1\MyStringClass\bin\Debug\netcoreapp3.1\MyStringClass.dll
+E:\epam\Task 2\2.1\Task 2.1.1\MyStringClass\bin\Debug\netcoreapp3.1\MyStringClass.pdb
+E:\epam\Task 2\2.1\Task 2.1.1\MyStringClass\obj\Debug\netcoreapp3.1\MyStringClass.csprojAssemblyReference.cache
+E:\epam\Task 2\2.1\Task 2.1.1\MyStringClass\obj\Debug\netcoreapp3.1\MyStringClass.AssemblyInfoInputs.cache
+E:\epam\Task 2\2.1\Task 2.1.1\MyStringClass\obj\Debug\netcoreapp3.1\MyStringClass.AssemblyInfo.cs
+E:\epam\Task 2\2.1\Task 2.1.1\MyStringClass\obj\Debug\netcoreapp3.1\MyStringClass.csproj.CoreCompileInputs.cache
+E:\epam\Task 2\2.1\Task 2.1.1\MyStringClass\obj\Debug\netcoreapp3.1\MyStringClass.dll
+E:\epam\Task 2\2.1\Task 2.1.1\MyStringClass\obj\Debug\netcoreapp3.1\MyStringClass.pdb

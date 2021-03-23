@@ -31,7 +31,7 @@ namespace Task_2._1._2
                     }
                     else
                     {
-                        throw new Exception("Dimension length should be positive");
+                        throw new Exception("Size should be positive");
                     }
                 }
             }

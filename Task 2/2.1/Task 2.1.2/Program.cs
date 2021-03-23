@@ -6,7 +6,7 @@ namespace Task_2._1._2
     {
         static void Main(string[] args)
         {
-            Round r = new Round(1, 1, 1);
+            Triangle r = new Triangle(2, 2, 3);
             Console.WriteLine(r.GetArea);
 
         }

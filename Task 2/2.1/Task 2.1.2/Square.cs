@@ -6,8 +6,7 @@ namespace Task_2._1._2
 {
     class Square : Figure, IHaveArea
     {
-        public Point center { get; set; }
-        public Dimension side;
+        public Dimension side = new Dimension();
 
         public Square(double x, double y, double sideLength)
         {

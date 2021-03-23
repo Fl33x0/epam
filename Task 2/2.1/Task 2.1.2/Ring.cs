@@ -6,7 +6,7 @@ namespace Task_2._1._2
 {
     class Ring : Circle, IHaveArea
     {
-        private Dimension innerRadius;
+        private Dimension innerRadius = new Dimension();
 
         
         public double GetArea
@@ -25,7 +25,11 @@ namespace Task_2._1._2
         }
 
         public Ring(double x, double y, double Radius, double innerRadius) : base(x, y, Radius)
-        {           
+        {
+            if (innerRadius > Radius)
+            {
+                throw new Exception("Inner radius should be less than external");
+            }
             center.x = x;
             center.y = y;
             this.Radius.Size = Radius;

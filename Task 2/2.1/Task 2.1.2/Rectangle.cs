@@ -22,7 +22,7 @@ namespace Task_2._1._2
         }
 
         public Rectangle(double x, double y, double length, double width)
-        {
+        {            
             center.x = x;
             center.y = y;
             this.length.Size = length;

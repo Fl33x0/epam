@@ -21,5 +21,7 @@ namespace Task_2._1._2
             this.x = x;
             this.y = y;
         }
+
+        public Point() { this.x = 0; this.y = 0; }
     }
 }

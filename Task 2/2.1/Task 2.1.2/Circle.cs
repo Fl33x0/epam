@@ -7,7 +7,7 @@ namespace Task_2._1._2
     class Circle : Figure
     {
         private static double size;
-        public Dimension Radius = new Dimension(size);
+        public Dimension Radius = new Dimension();
 
         public override double Perimeter
         {

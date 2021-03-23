@@ -40,6 +40,10 @@ namespace Task_2._1._2
             {
                 this.Size = size;
             }
+            public Dimension()
+            {
+                this.Size = 1;
+            }
         }
 
         public virtual double Perimeter { get; }

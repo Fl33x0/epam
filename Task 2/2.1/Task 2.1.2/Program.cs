@@ -6,9 +6,9 @@ namespace Task_2._1._2
     {
         static void Main(string[] args)
         {
-            //Circle c = new Circle(1, 1, 2);
-            //Console.WriteLine(c.Perimeter);
-            Rectangle r = new Rectangle(1, 1, 2, 2);
+            Round r = new Round(1, 1, 1);
+            Console.WriteLine(r.GetArea);
+
         }
     }
 }

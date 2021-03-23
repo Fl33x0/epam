@@ -8,8 +8,8 @@ namespace Task_2._1._2
     {
 
         private static double size;
-        public Dimension length = new Dimension(size);
-        public Dimension width = new Dimension(size);
+        public Dimension length = new Dimension();
+        public Dimension width = new Dimension();
 
         public override double Perimeter
         {

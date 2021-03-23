@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_2._1._2
 {
-    class Square : Figure, IHaveArea
+    class Square : Polygon, IHaveArea
     {
         public Dimension side = new Dimension();
 
@@ -14,6 +14,17 @@ namespace Task_2._1._2
             center.y = y;
             side.Size = sideLength;
         }
+        
+        public Square()
+        {
+            Console.WriteLine("Введите координату Х центра");
+            center.x = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите координату У центра");
+            center.y = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите длину стороны");
+            side.Size = double.Parse(Console.ReadLine());            
+        }
+        
 
         public override double Perimeter
         {
@@ -26,6 +37,14 @@ namespace Task_2._1._2
         public double GetArea
         {
             get { return side.Size * side.Size; }
+        }
+        public override void GetInfo()
+        {
+            Console.WriteLine("Тип фигуры: квадрат");
+            base.GetInfo();
+            Console.WriteLine("Периметр = " + Perimeter);
+            Console.WriteLine("Площадь = " + GetArea);
+            Console.WriteLine();
         }
     }
 }

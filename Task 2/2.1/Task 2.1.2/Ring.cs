@@ -35,5 +35,20 @@ namespace Task_2._1._2
             this.Radius.Size = Radius;
             this.innerRadius.Size = innerRadius;
         }
+
+        public Ring() : base()
+        {            
+            Console.WriteLine("Введите внутренний радиус");
+            innerRadius.Size = double.Parse(Console.ReadLine());
+        }
+
+        public override void GetInfo()
+        {
+            Console.WriteLine("Тип фигуры: кольцо");
+            Console.WriteLine("Координаты центра фигуры: " + "x = " + this.center.x + " y = " + this.center.y);
+            Console.WriteLine("Длина окружности = " + Perimeter);
+            Console.WriteLine("Площадь = " + GetArea);
+            Console.WriteLine();
+        }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_2._1._2
 {
-    class Triangle : Figure, IHaveArea
+    class Triangle : Polygon, IHaveArea
     {
         
         public Dimension side1 = new Dimension();
@@ -34,6 +34,29 @@ namespace Task_2._1._2
             this.side1.Size = side1;
             this.side2.Size = side2;
             this.side3.Size = side3;
+        }
+
+        public Triangle()
+        {
+            Console.WriteLine("Введите координату Х центра");
+            center.x = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите координату У центра");
+            center.y = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите длину стороны 1");
+            side1.Size = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите длину стороны 2");
+            side2.Size = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите длину стороны 3");
+            side3.Size = double.Parse(Console.ReadLine());
+        }
+
+        public override void GetInfo()
+        {
+            Console.WriteLine("Тип фигуры: треугольник");
+            base.GetInfo();
+            Console.WriteLine("Периметр = " + Perimeter);
+            Console.WriteLine("Площадь = " + GetArea);
+            Console.WriteLine();
         }
     }
 }

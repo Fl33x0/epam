@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_2._1._2
 {
-    class Line
+    public class Line : Figure
     {
         private static double x;
         private static double y;
@@ -27,6 +27,27 @@ namespace Task_2._1._2
             end.x = x2;
             end.y = y2;
         }
+        public Line()
+        {
+            Console.WriteLine("Введите координату Х начала линии");
+            start.x = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите координату У начала линии");
+            start.y = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите координату Х конца линии");
+            end.x = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите координату У конца линии");
+            end.y = double.Parse(Console.ReadLine());                        
+        }
 
+        public override void GetInfo()
+        {
+            Console.WriteLine("Тип фигуры: линия");
+            Console.WriteLine("Координаты начала: " + "x = " + start.x + " y = " + start.y);
+            Console.WriteLine("Координаты конца: " + "x = " + end.x + " y = " + end.y);
+            Console.WriteLine("Длина: " + Length);
+            Console.WriteLine();
+        }
+
+        
     }
 }

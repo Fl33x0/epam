@@ -15,7 +15,7 @@ namespace Task_1._2._3
 
             for (int i = 0; i < inputChars.Length; i++)
             {
-                if (Char.IsSeparator(inputChars[i]) | Char.IsPunctuation(inputChars[i]) == true)
+                if (Char.IsSeparator(inputChars[i]) || Char.IsPunctuation(inputChars[i]))
                 {
                     separators[i] = inputChars[i];
                 }

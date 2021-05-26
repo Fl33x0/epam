@@ -1,0 +1,20 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    font-family:'Times New Roman', Times, serif;
+    background: #f9e497;
+    width: 200px;
+    color: #880000;
+    border: solid 1px #880000;
+    box-shadow: 5px 5px 0px #880000;
+    border-radius: 15px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+}

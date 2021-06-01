@@ -1,0 +1,56 @@
+body {
+    background: slategray;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .main-block {
+    background: white;
+    width: 900px;
+    box-shadow: 0 20px 50px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .main-block div {
+    float: left;
+    width: 300px;
+    box-sizing: border-box;
+    border-right: 2px solid lightGray;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .main-block div:last-child {
+    border-right: none;
+  }
+  
+  .someImage {
+      width: 70px;
+      height: 70px;
+  }
+  
+  h1 {
+    color: rgb(255, 145, 0);
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  h2 {
+      font-weight: 400;
+  }
+
+  
+  button {
+    background: rgb(255, 145, 0);
+    font-size: 16px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  

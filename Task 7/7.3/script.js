@@ -1,63 +1,51 @@
-let s = "1+2/3*2.255=";
+class Service {
 
-function Calculator(mathExpressionString) {
-    mathExpressionString = SpaceRemover(mathExpressionString);    
+    _storageArray = [];
 
-    let _expressionMembers = GetExpressionMembers(mathExpressionString);
+    add(someObject) {
 
-    let _regex = /([+\/\-*]?\d{1,}(\.\d{1,})?){1,}=/g;
-    let _expressionFormatCheck = _regex.test(mathExpressionString);
-
-    if (!_expressionFormatCheck) {
-        throw new Error('The input string was wrong');
+        var _id = this._storageArray.length.toString();
+        this._storageArray.push({data: someObject, id: _id});  
     }
 
-    let _result = Number.parseFloat(_expressionMembers[0]);
-    let _memberChars;
+    getById(id) {
+        let result;
 
-    let _numberInMember;
-    for (let i = 1; i < _expressionMembers.length; i++) {
-        _memberChars = _expressionMembers[i].split("");
-        
-        _numberInMember = Number.parseFloat(_memberChars.slice(1, _memberChars.length).join(""));
-        switch (_memberChars[0]) {
-            case "+":
-                _result += _numberInMember;
-                break;
-            case "-":
-                _result -= _numberInMember;
-                break;
-            case "*":
-                _result *= _numberInMember;
-                break;
-            case "/":
-                _result /= _numberInMember;
-                break;
-        
-            default:
-                break;
+        for (let i = 0; i < this._storageArray.length; i++) {
+
+            if (this._storageArray[i].id == id) {
+                return this._storageArray[i].data;
+            }            
         }
+
+        return null;
     }
 
-    return _result.toFixed(2);
-}
+    getAll() {
+        let _result = []
 
-function SpaceRemover(someString) {
-
-    let _inputCharArr = someString.split("");
-
-    for (let i = 0; i < _inputCharArr.length; i++) {
-        if (_inputCharArr[i] == " ") {
-            _inputCharArr.splice(i, 1);
+        for (let i = 0; i < this._storageArray.length; i++) {
+            _result[i] = this._storageArray[i].data;
         }
+
+        return _result;
     }
 
-    return _inputCharArr.join("");
+    deleteById(id) {
+
+        let _deleted = this.getById(id);
+
+        this._storageArray.splice(id, 1);
+
+        return _deleted;
+    }
+
+    updateById(id, data) {
+
+        this._storageArray[id].data = data;
+    }
+
+    // про replaceById 1 параметр указан. Не понял задачи :(
 }
 
-function GetExpressionMembers(someString) {
-
-    let _regex = /[+\/\-*]?\d{1,}(\.\d{1,})?/g;
-    
-    return someString.match(_regex);
-}
+var storage = new Service();
